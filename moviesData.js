@@ -1,0 +1,40 @@
+// moviesData.js
+export const movies = {
+    Thriller: [
+      { id: 1, title: "Inception", year: 2010, image: "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" },
+      { id: 2, title: "Shutter Island", year: 2010, image: "https://image.tmdb.org/t/p/w500/kve20tXwUZpu4GUX8l6X7Z4jmL6.jpg" },
+      { id: 3, title: "Gone Girl", year: 2014, image: "https://image.tmdb.org/t/p/w500/qymaJhucquUwjpb8oiqynMeXnID.jpg" },
+      { id: 4, title: "Se7en", year: 1995, image: "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg" },
+      { id: 5, title: "Prisoners", year: 2013, image: "https://image.tmdb.org/t/p/w500/tF2ZpZtDKP9Jbn4xWl3M5iADGgM.jpg" },
+      { id: 6, title: "The Sixth Sense", year: 1999, image: "https://image.tmdb.org/t/p/w500/fIssD3w3SvIhPPmVo4WMgZDVLID.jpg" },
+      { id: 7, title: "Zodiac", year: 2007, image: "https://image.tmdb.org/t/p/w500/6YmeO4pB7XTh8P8F960O1uA14JO.jpg" },
+      { id: 8, title: "The Girl with the Dragon Tattoo", year: 2011, image: "https://image.tmdb.org/t/p/w500/q3bJIAz6q0LZSN12OeyVRYXQ4fc.jpg" },
+      { id: 9, title: "Fight Club", year: 1999, image: "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg" },
+      { id: 10, title: "The Silence of the Lambs", year: 1991, image: "https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg" },
+    ],
+    Romantic: [
+      { id: 11, title: "The Notebook", year: 2004, image: "https://image.tmdb.org/t/p/w500/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg" },
+      { id: 12, title: "La La Land", year: 2016, image: "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg" },
+      { id: 13, title: "Titanic", year: 1997, image: "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg" },
+      { id: 14, title: "Pride and Prejudice", year: 2005, image: "https://image.tmdb.org/t/p/w500/sGjIvtVvTlWnia2zfJfHz81pZ9Q.jpg" },
+      { id: 15, title: "A Walk to Remember", year: 2002, image: "https://image.tmdb.org/t/p/w500/2CPbWlRL2aL4nR3jAqgkC3Wt9cE.jpg" },
+      { id: 16, title: "Me Before You", year: 2016, image: "https://image.tmdb.org/t/p/w500/aNkNt3o2xPMzCkFka4yknfYHBo.jpg" },
+      { id: 17, title: "500 Days of Summer", year: 2009, image: "https://image.tmdb.org/t/p/w500/f9mbM0YMLpYemcWx6o2WeiYQLDP.jpg" },
+      { id: 18, title: "The Fault in Our Stars", year: 2014, image: "https://image.tmdb.org/t/p/w500/tcNniniS4rfqrLH0oORikJfnjwX.jpg" },
+      { id: 19, title: "Notting Hill", year: 1999, image: "https://image.tmdb.org/t/p/w500/bWgUumzZPqqp4ilT4GvVcfVFvvL.jpg" },
+      { id: 20, title: "Before Sunrise", year: 1995, image: "https://image.tmdb.org/t/p/w500/8fW0wqgPZyCHsKt7RxHpy1cEv2l.jpg" },
+    ],
+    Action: [
+      { id: 21, title: "The Dark Knight", year: 2008, image: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" },
+      { id: 22, title: "Mad Max: Fury Road", year: 2015, image: "https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg" },
+      { id: 23, title: "John Wick", year: 2014, image: "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg" },
+      { id: 24, title: "Gladiator", year: 2000, image: "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg" },
+      { id: 25, title: "Die Hard", year: 1988, image: "https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg" },
+      { id: 26, title: "The Avengers", year: 2012, image: "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg" },
+      { id: 27, title: "The Matrix", year: 1999, image: "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" },
+      { id: 28, title: "Black Panther", year: 2018, image: "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg" },
+      { id: 29, title: "Spider-Man: No Way Home", year: 2021, image: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" },
+      { id: 30, title: "Avengers: Endgame", year: 2019, image: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg" },
+    ],
+  };
+  
