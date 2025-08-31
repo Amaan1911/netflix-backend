@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// --- MongoDB Connection ---
+
 const mongoURI = process.env.MONGO_URL;
 if (!mongoURI) {
   console.error("❌ MONGO_URI is not defined! Check your .env file.");
@@ -26,10 +26,8 @@ mongoose.connect(mongoURI, {
 .then(() => console.log("✅ MongoDB connected"))
 .catch(err => console.log("❌ MongoDB connection error:", err));
 
-// --- Routes ---
 
-// 1. Seed static movies into DB (optional, keeps old movies too)
-app.post("/seed-movies", async (req, res) => {
+app.post("/seed_movies", async (req, res) => {
   try {
     const moviesCollection = mongoose.connection.collection("movies");
 

@@ -1,3 +1,5 @@
 .env
 movies.json
 node_modules
+firebase-service-account.json
+firebase.json
