@@ -1,4 +1,4 @@
-// moviesData.js
+
 export const movies = {
     Thriller: [
       { id: 1, title: "Inception", year: 2010, image: "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" },

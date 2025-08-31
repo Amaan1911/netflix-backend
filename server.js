@@ -44,14 +44,14 @@ app.post("/seed_movies", async (req, res) => {
   }
 });
 
-// 2. Get all movies (includes old API movies)
+
 app.get("/movies", async (req, res) => {
   const moviesCollection = mongoose.connection.collection("movies");
   const allMovies = await moviesCollection.find({}).toArray();
   res.json({ success: true, movies: allMovies });
 });
 
-// 3. Create user profile
+
 app.post("/profiles", async (req, res) => {
   try {
     const { userId, username, genre } = req.body;
@@ -79,8 +79,7 @@ app.get("/profiles/:userId", async (req, res) => {
   res.json({ success: true, profile });
 });
 
-// 5. Get static movies by user preference
-// Get static movies by user preference (with genre added dynamically)
+
 app.get("/user-movies/:userId", async (req, res) => {
   const { userId } = req.params;
   const profile = await Profile.findOne({ userId });
@@ -98,6 +97,6 @@ app.get("/user-movies/:userId", async (req, res) => {
 });
 
 
-// --- Start Server ---
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

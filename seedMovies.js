@@ -2,7 +2,7 @@ import admin from "firebase-admin";
 import fs from "fs";
 import path from "path";
 
-// Initialize Firebase
+``
 import serviceAccount from "./firebase-service-account.json" assert { type: "json" };
 
 admin.initializeApp({
