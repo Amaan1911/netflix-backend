@@ -71,7 +71,7 @@ app.post("/profiles", async (req, res) => {
   }
 });
 
-// 4. Get user profile
+
 app.get("/profiles/:userId", async (req, res) => {
   const { userId } = req.params;
   const profile = await Profile.findOne({ userId });
@@ -90,7 +90,7 @@ app.get("/user-movies/:userId", async (req, res) => {
   const preferredGenre = profile.genre;
   let preferredMovies = movies[preferredGenre] || [];
 
-  // Add genre field dynamically (optional, in case your frontend needs it)
+  
   preferredMovies = preferredMovies.map(movie => ({ ...movie, genre: preferredGenre }));
 
   res.json({ success: true, movies: preferredMovies });
